@@ -83,14 +83,6 @@ function Appbar(props) {
                         <ListItemText primary={"Posts"} />
                     </ListItem>
                 </NavLink>
-                {api.isLoggedIn() &&
-                    <NavLink to="/add-post" style={{ textDecoration: 'none', color: 'gray' }}>
-                        <ListItem button key={1}>
-                            <ListItemIcon><MailIcon /></ListItemIcon>
-                            <ListItemText primary={"Add post"} />
-                        </ListItem>
-                    </NavLink>
-                }
             </List>
             <Divider />
             <List>
