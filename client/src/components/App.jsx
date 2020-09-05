@@ -15,7 +15,6 @@ export default function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/posts" component={Posts} />
-          <Route path="/add-post" component={AddPost} />
           <Route path="/signup" component={Signup} />
           <Route path="/login" component={Login} />
           <Route path="/secret" component={Secret} />
