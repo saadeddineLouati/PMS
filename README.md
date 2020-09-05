@@ -1,4 +1,4 @@
-# Oh my Game | PWA Gaming Portal
+# Post managment system
 
 - [Generate the project](#generate-the-project)
 - [Global information](#global-information)
